@@ -13,7 +13,6 @@
 	src: url(../fonts/GOTHIC.ttf);
 }
 
-
 div#container-top{
 	max-width: 1140px;
 	margin: 0 auto;
@@ -79,5 +78,3 @@ ul.navegacao li a:hover{
 .marginlink{
 	margin-right: 30px;
 }
-
-

@@ -4,25 +4,74 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Projeto WEBPRESS</title>
-	<link rel="stylesheet" href="_/css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="_/css/main.css">
+	<link rel="stylesheet" type="text/css" href="_/css/slide.css">
+
+	<script src="_/js/modernizr.custom.28468.js"></script>
+
+	<noscript>
+	<link rel="stylesheet" type="text/css" href="_/css/nojs.css" />
+	</noscript>
+
 </head>
-<body>	
-		<header class="header-top">
-			<div id="container-top">
-				<h1 class="logo">
-					<span>web</span>press
-				</h1>
-					<nav>
-						<ul class="navegacao">
-							<li><a href="#" id="">home</a></li>
-							<li><a href="#" id="">sobre</a></li>
-							<li><a href="#" id="">serviços</a></li>
-							<li><a href="#" id="">contato</a></li>
-							<li class='marginlink'><a href="#" id="">blog</a></li>
-						</ul>
-					</nav>
-			</div>					
-		</header>
-	
+<body>
+
+<header class="header-top">
+	<div id="container-top">
+		<h1 class="logo">
+			<span>web</span>press
+		</h1>
+			<nav>
+				<ul class="navegacao">
+					<li><a href="#" id="">home</a></li>
+					<li><a href="#" id="">sobre</a></li>
+					<li><a href="#" id="">serviços</a></li>
+					<li><a href="#" id="">contato</a></li>
+					<li class='marginlink'><a href="#" id="">blog</a></li>
+				</ul>
+			</nav>
+	</div>					
+</header>
+
+<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>responsive design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+					<a href="#" class="da-link">Leia Mais</a>
+					<div class="da-img"><img src="_/imgs/slide/01.png" alt="image01" /></div>
+				</div>
+
+				<div class="da-slide">
+					<h2>responsive design 02</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+					<a href="#" class="da-link">Leia Mais</a>
+					<div class="da-img"><img src="_/imgs/slide/01.png" alt="image01" /></div>
+				</div>
+
+				<div class="da-slide">
+					<h2>responsive design 03</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+					<a href="#" class="da-link">Leia Mais</a>
+					<div class="da-img"><img src="_/imgs/slide/01.png" alt="image01" /></div>
+				</div>
+
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+</div>	
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="_/js/jquery.cslider.js"></script>
+<script>
+	$('#da-slider').cslider({ 
+    current     : 0, 
+    bgincrement : 50,   
+    autoplay    : true,
+    interval    : 10000  
+     
+});
+</script>	
 </body>
 </html>
