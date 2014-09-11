@@ -24,7 +24,10 @@ header.header-top{
 	box-shadow: 0 0 15px #888;
 	border-top: 5px solid #DA0A5A;
 	min-height: 80px;
-	z-index: 999;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	background: #fff;
 }
 
 h1.logo{
@@ -46,7 +49,7 @@ h1.logo span{
 nav{
 	width: 50%;
 	display:block;
-	float: right;
+	float: right;	
 }
 
 ul.navegacao{
@@ -55,13 +58,13 @@ ul.navegacao{
 	position: fixed;
 	top: 0;
 	width: 50%;
-	text-align: right;
+	text-align: right;	
 
 }
 
 ul.navegacao li{
 	display: inline-block;
-	padding: 30px 20px;
+	padding: 35px 20px;
 }
 
 ul.navegacao li a{
@@ -76,8 +79,119 @@ ul.navegacao li a:hover{
 	color: #000;
 }
 
-.marginlink{
-	margin-right: 30px;
+li.marginlink{
+	margin-right: 230px;
 }
 
+div#chamada{
+	width: 100%;
+	min-height: 95px;
+	background: #333;
+}
 
+section#chamada-texto{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section#chamada-texto p{
+	font-family: cgothic;
+	font-size: 20px;
+	color: #FFF;
+}
+
+section#chamada-texto hr{
+	background: #FFF;
+	height: 53px;
+	width: 1px;
+	border: none;
+	margin: 20px;
+	float: left;
+}
+
+p.chamada{
+	float: left;
+	padding: 25px;
+}
+
+span.tec{
+	color: #D80A59;
+}
+
+span.dst-dois{
+	color: #99DFFF;
+}
+
+p.bloco-margin{
+	margin-left: 30px;
+}
+
+section#nosso-time{
+	max-width: 1140px;
+	margin: 70px auto 0 auto;
+	clear: both;
+}
+
+section#nosso-time h1{
+	font-family: cgothic;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: right;
+	color: #333;
+}
+
+section#nosso-time h2{
+	font-family: cgothic;
+	font-size: 25px;
+	font-weight: normal;
+	text-align: right;
+	color: #9ADFFF;
+}
+
+article#bloco-um, #bloco-dois, #bloco-tres{
+	width: 260px;
+	height: 365px;
+	border: 1px solid #DDD;
+	border-radius: 15px;
+	display: inline-block;
+	float: left;
+	margin: 5% 5.17%;
+	text-align: center;
+}
+
+img.bloc-img{
+	margin: 20px 0 20px 0;
+}
+
+ul#bloco-redes-sociais{
+	list-style: none;
+}
+
+ul#bloco-redes-sociais li{
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+}
+
+div#descricao{
+	padding: 30px;
+}
+
+h1.bloco-nome{
+	text-align: left !important;
+	font-size: 25px !important;
+}
+
+h2.bloco-cargo{
+	text-align: left !important;
+	font-size: 20px !important;
+	color: #99DFFF !important;
+}
+
+p.bloco-funcao{
+	text-align: left;
+	font-size: 13px;
+	font-family: cgothic;
+	color: #FF9672;
+
+}
